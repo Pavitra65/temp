@@ -11,6 +11,7 @@ This repository provides a comprehensive workflow for generating cross-sectional
 
 The initial step involves generating cross-sectional images along with their corresponding STEP files. This is performed using the script **`CAD_script.txt`**, which allows customization of parameters such as the number of runs, number of pores, radius values, standard deviation, and more.  
 - **Recommended Software:** FreeCAD 0.20  
+- **Execution:** The script should be run within FreeCAD’s Python console, which can be accessed via the **View** menu. Under **View > Panels**, enable the **Python Console** to open it.  
 - **Note:** Parameters must be manually updated for each distinct combination; this can be automated in future versions.
 
 ### 2. Simulation in ANSYS Workbench
