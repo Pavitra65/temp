@@ -259,7 +259,21 @@ To improve model performance and training stability, the ground truth values (Yo
 - Follow the outlined order for the pipeline to ensure smooth data flow and consistency.  
 - Verify parameter changes carefully when generating new datasets, as this process is currently manual.  
 - Use the recommended versions of FreeCAD and ANSYS Workbench to avoid compatibility issues.
+- **Maintain the Suggested Folder Structure**
 
+  It is strongly recommended to maintain the following folder structure when working with this project. Almost all Python scripts that require input/output paths use **relative paths**, which means that one do **not** need to manually update any file paths—simply preserving this structure allows all scripts to run seamlessly.
+
+```
+├── .venv/
+├── pycache/
+├── jupyter_notebooks/
+├── saved_models/
+├── testing_results/
+├── training_results/
+├── youngs_modulus_prediction/
+├── .gitignore
+├── all python files
+```
 ---
 
 ## Troubleshoot
